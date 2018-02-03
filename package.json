@@ -1,6 +1,6 @@
 {
   "name": "isotropy",
-  "version": "10.0.1",
+  "version": "10.0.2",
   "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": [
     "Jeswin Kumar<jeswinpk@agilehead.com>"
@@ -9,6 +9,9 @@
     "build": "./build.sh",
     "test": "mocha dist/test/test.js",
     "debug": "mocha dist/test/test.js --debug-brk"
+  },
+  "bin": {
+    "isotropy": "dist/isotropy.js"
   },
   "main": "dist/isotropy.js",
   "types": "dist/isotropy.d.ts",
