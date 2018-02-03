@@ -84,7 +84,7 @@ modules:
   - name: static
   - name: client
     build:
-      - type: typescript
+      - type: webpack
   - name: server
     build:
       - type: typescript
