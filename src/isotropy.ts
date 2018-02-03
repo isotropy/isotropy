@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import lib from "lib-isotropy";
 import yargs = require("yargs");
 
